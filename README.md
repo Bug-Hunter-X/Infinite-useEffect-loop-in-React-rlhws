@@ -1,0 +1,3 @@
+# Infinite useEffect loop in React
+
+This repository demonstrates a common error in React applications: an infinite loop caused by an incorrectly used `useEffect` hook.  The `useEffect` hook is designed to perform side effects, but if its dependencies are not correctly specified, it can lead to unintended re-renders and performance issues. This can cause a component to re-render continuously, leading to performance issues, infinite loops, and even crashes.
